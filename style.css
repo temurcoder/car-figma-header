@@ -1,0 +1,28 @@
+:root{
+    --orenge: #EE8313;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#000000;
+    color: #FFFFFF;
+}
+nav{
+    width: 1200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 120px 691px 120px;
+}
+.header-nav-text{
+    display: flex;
+    column-gap: 48px;
+    list-style: none;
+    padding: 12px 72px 12px 409px;
+}
+.header-nav-btn{
+   padding: 12px 24px;
+   background-color: #EE8313;
+}
